@@ -23,6 +23,6 @@ public class BusinessMockAnnotationTest {
 
         when(dataServiceMock.retrieveData()).thenReturn(new int[] {3, 1, 6, 4, 8});
         int result = business.findGreatestFromData();
-        assertEquals(8,result);
+        assertEquals(10,result);
     }
 }
