@@ -9,7 +9,7 @@ public class BusinessStubTest {
     public void findGreatestFromData() {
         Business business = new Business(new DataServiceStub());
         int result = business.findGreatestFromData();
-        assertEquals(6,result);
+        assertEquals(8,result);
     }
 }
 class DataServiceStub implements DataService {
